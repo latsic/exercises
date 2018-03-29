@@ -34,7 +34,7 @@
 
   .page {
     margin: 0 auto;
-    font-family: "Helvetica", sans-serif;
+    font-family: "Roboto", sans-serif;
     /*background-color: rgb(141, 140, 146);*/
   }
 
@@ -146,6 +146,29 @@
   .footer-std {
     margin-top: 0.3rem;
     background-color: #BBBBBB;
+  }
+  
+  .projects-links-section {
+	margin-top: 0.3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+  }
+  
+  ul {
+	  list-style-position: inside;
+	  margin-left: 0.5rem;
+  }
+  
+  .project-links {
+	  text-decoration: none;
+	  font-style: normal;
+	  color: #000000;
+	  margin-top: 0.3rem;
+	  display:inline-block;
+  }
+  .project-links:hover{
+	  color: #442222;
   }
 
   /*
